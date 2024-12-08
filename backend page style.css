@@ -1,0 +1,55 @@
+body{
+    background-color: #091D33;
+}
+header{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+p{
+    color: white;
+}
+.back-btn {
+    text-align: left;
+    position: sticky;
+    padding: 10px 20px;
+}
+
+.button-style {
+    background-color: #277bcf;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.external-course-backend {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 20px; 
+    padding: 20px;
+    text-align: center; 
+}
+
+.external-course-backend a {
+    display: block;
+    width: 300px;
+    text-decoration: none;
+    color: #277bcf;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0 auto; /
+}
+
+.external-course-backend a img {
+    width: 100%;
+    border-radius: 8px; 
+    transition: transform 0.3s ease;
+}
+
+.external-course-backend a img:hover {
+    transform: scale(1.1); 
+}
